@@ -1,0 +1,10 @@
+C:\Users\windy\source\repos\CaclulatorDemo\CaclulatorDemo\bin\Debug\CaclulatorDemo.exe.config
+C:\Users\windy\source\repos\CaclulatorDemo\CaclulatorDemo\bin\Debug\CaclulatorDemo.exe
+C:\Users\windy\source\repos\CaclulatorDemo\CaclulatorDemo\bin\Debug\CaclulatorDemo.pdb
+C:\Users\windy\source\repos\CaclulatorDemo\CaclulatorDemo\obj\Debug\CaclulatorDemo.csprojAssemblyReference.cache
+C:\Users\windy\source\repos\CaclulatorDemo\CaclulatorDemo\obj\Debug\CaclulatorDemo.Form1.resources
+C:\Users\windy\source\repos\CaclulatorDemo\CaclulatorDemo\obj\Debug\CaclulatorDemo.Properties.Resources.resources
+C:\Users\windy\source\repos\CaclulatorDemo\CaclulatorDemo\obj\Debug\CaclulatorDemo.csproj.GenerateResource.cache
+C:\Users\windy\source\repos\CaclulatorDemo\CaclulatorDemo\obj\Debug\CaclulatorDemo.csproj.CoreCompileInputs.cache
+C:\Users\windy\source\repos\CaclulatorDemo\CaclulatorDemo\obj\Debug\CaclulatorDemo.exe
+C:\Users\windy\source\repos\CaclulatorDemo\CaclulatorDemo\obj\Debug\CaclulatorDemo.pdb
