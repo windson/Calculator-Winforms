@@ -14,7 +14,7 @@ namespace CaclulatorDemo
     {
         const string divideByZero = "Err!";
         const string syntaxErr = "SYNTAX ERROR!";
-
+        bool decimalPointActive = false;
         public Form1()
         {
             InitializeComponent();
@@ -28,6 +28,7 @@ namespace CaclulatorDemo
 
         private void BtnReset_Click(object sender, EventArgs e)
         {
+            decimalPointActive = false;
             PreCheck_ButtonClick();
             previousOperation = Operation.None;
             txtDisplay.Clear();
@@ -35,6 +36,7 @@ namespace CaclulatorDemo
 
         private void BtnClear_Click(object sender, EventArgs e)
         {
+            decimalPointActive = false;
             PreCheck_ButtonClick();
             if (txtDisplay.Text.Length > 0)
             {
@@ -49,6 +51,10 @@ namespace CaclulatorDemo
             if (txtDisplay.Text.Length == 0)
             {
                 previousOperation = Operation.None;
+            }
+            if(previousOperation != Operation.None)
+            {
+                currentOperation = previousOperation;
             }
         }
 
@@ -182,6 +188,10 @@ namespace CaclulatorDemo
         {
             if (txtDisplay.Text == divideByZero || txtDisplay.Text == syntaxErr)
                 txtDisplay.Clear();
+            if(previousOperation != Operation.None)
+            {
+                EnableOperatorButtons();
+            }
         }
 
         private void EnableOperatorButtons(bool enable = true)
@@ -189,6 +199,10 @@ namespace CaclulatorDemo
             btnMul.Enabled = enable;
             btnDiv.Enabled = enable;
             btnAdd.Enabled = enable;
+            if (!enable)
+            {
+                decimalPointActive = false;
+            }
             //btnSub.Enabled = enable;
         }
         enum Operation
@@ -210,6 +224,19 @@ namespace CaclulatorDemo
                 PerformCalculation(previousOperation);
 
             previousOperation = Operation.None;
+        }
+
+        private void BtnDecimal_Click(object sender, EventArgs e)
+        {
+            if (decimalPointActive) return;
+            if (txtDisplay.Text == syntaxErr || txtDisplay.Text == divideByZero)
+            {
+                txtDisplay.Text = string.Empty;
+            }
+            EnableOperatorButtons();
+            PreCheck_ButtonClick();
+            txtDisplay.Text += (sender as Button).Text;
+            decimalPointActive = true;
         }
     }
 }

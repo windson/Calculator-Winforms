@@ -8,3 +8,13 @@ C:\Users\windy\source\repos\CaclulatorDemo\CaclulatorDemo\obj\Debug\CaclulatorDe
 C:\Users\windy\source\repos\CaclulatorDemo\CaclulatorDemo\obj\Debug\CaclulatorDemo.csproj.CoreCompileInputs.cache
 C:\Users\windy\source\repos\CaclulatorDemo\CaclulatorDemo\obj\Debug\CaclulatorDemo.exe
 C:\Users\windy\source\repos\CaclulatorDemo\CaclulatorDemo\obj\Debug\CaclulatorDemo.pdb
+C:\Users\navulep\Source\Repos\Calculator-Winforms\CaclulatorDemo\obj\Debug\CaclulatorDemo.csprojAssemblyReference.cache
+C:\Users\navulep\Source\Repos\Calculator-Winforms\CaclulatorDemo\obj\Debug\CaclulatorDemo.Form1.resources
+C:\Users\navulep\Source\Repos\Calculator-Winforms\CaclulatorDemo\obj\Debug\CaclulatorDemo.Properties.Resources.resources
+C:\Users\navulep\Source\Repos\Calculator-Winforms\CaclulatorDemo\obj\Debug\CaclulatorDemo.csproj.GenerateResource.cache
+C:\Users\navulep\Source\Repos\Calculator-Winforms\CaclulatorDemo\obj\Debug\CaclulatorDemo.csproj.CoreCompileInputs.cache
+C:\Users\navulep\Source\Repos\Calculator-Winforms\CaclulatorDemo\obj\Debug\CaclulatorDemo.exe
+C:\Users\navulep\Source\Repos\Calculator-Winforms\CaclulatorDemo\obj\Debug\CaclulatorDemo.pdb
+C:\Users\navulep\Source\Repos\Calculator-Winforms\CaclulatorDemo\bin\Debug\CaclulatorDemo.exe.config
+C:\Users\navulep\Source\Repos\Calculator-Winforms\CaclulatorDemo\bin\Debug\CaclulatorDemo.exe
+C:\Users\navulep\Source\Repos\Calculator-Winforms\CaclulatorDemo\bin\Debug\CaclulatorDemo.pdb
